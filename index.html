@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="m-3">
+      <p>Задание 1</p>
+      <div id="input-div">
+        <label for="inputName"
+          >Enter your name (name can't contain digits)</label
+        >
+        <input
+          id="inputName"
+          class="inputEnterName "
+          placeholder="Emma Smith"
+        />
+        <p id="result"></p>
+      </div>
+    </div>
+    <div class="m-3">
+      <p>Задание 3</p>
+      <p>Нажмите на поле для перемещения мяча.</p>
+      <div id="field">
+        <img src="https://ru.js.cx/clipart/ball.svg" id="ball" />
+      </div>
+    </div>
+    <div class="m-3">
+      <p>Задание 4</p>
+      <div class="d-flex justify-content-start mt-1 mb-5">
+        <div class="traffic-light d-flex">
+          <span class="trafficLights red"></span>
+          <span class="trafficLights yellow active"></span>
+          <span class="trafficLights green"></span>
+        </div>
+        <button id="buttonNext">Next</button>
+      </div>
+    </div>
+    <div class="m-3">
+      <p>Задание 5</p>
+      <div id="list-books-div">
+        <ol class="list-of-books">
+          <li class="list-book bg-info">JavaScript for Kids</li>
+          <li class="list-book">Eloquent JavaScript</li>
+          <li class="list-book">JavaScript: The Good Parts</li>
+          <li class="list-book">
+            Programming JavaScript
+          </li>
+          <li class="list-book">
+            JavaScript: The Definitive Guide
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

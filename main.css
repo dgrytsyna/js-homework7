@@ -1,0 +1,56 @@
+#field {
+  width: 200px;
+  height: 150px;
+  border: 2px solid black;
+  background-color: #00ff00;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#ball {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  transition: all 1s;
+}
+.traffic-light {
+  background: #b5b5b5;
+  border: solid 1px #000;
+  border-radius: 15px;
+  padding: 7px;
+  line-height: 0;
+}
+
+.trafficLights {
+  width: 70px;
+  height: 70px;
+  float: left;
+  border-radius: 50%;
+  margin: 7px;
+  background: #c1c1c1;
+}
+
+.red.active {
+  background: red;
+}
+
+.yellow.active {
+  background: yellow;
+}
+
+.green.active {
+  background: green;
+}
+
+#buttonNext {
+  width: 70px;
+  height: 100px;
+  border-radius: 10px;
+}
+#buttonNext:active,
+#buttonNext:focus {
+  outline: none;
+}
